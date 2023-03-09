@@ -1,0 +1,135 @@
+.box-footer{
+    background-color: #121315;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+
+.btn-sabia-mais{
+    background-color: #3BA55C;
+    color: #FFFFFF;
+    padding: 5px;
+    width: 250px;
+    height: 42px;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-top: 50px;
+    
+
+
+    
+ 
+ 
+ }
+ 
+
+.box-conteudo-footer-1{
+    background-image: url(../../public/assets/dispositivos.png);
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: center 100%;
+    height: 30vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 800px;
+   
+   
+}
+
+
+.box-img-navegadores{
+    position: relative;
+    right: 100px;
+    top: 30px;
+    
+    
+    
+}
+
+.box-img-mobile{
+    position: relative;
+    left: 10px;
+    top: 30px;
+    display: flex;
+    gap:48px;
+}
+
+.box-img-windows-e-x{
+    position: relative;
+    left: 120px;
+    top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.box-conteudo-footer-2{
+   
+    padding-top: 30px;
+    padding-bottom:50px;
+    
+    border-top: solid 1.5px #363636;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.logo-footer{
+    margin-right: 150px;
+}
+
+.box-text-conteudo-footer-2{
+    display: flex;
+    gap: 150px;
+}
+
+.p-footer-2{
+    color: #FFFFFF;
+    text-align: start;
+    padding-bottom: 8px;
+}
+
+.p-contratando{
+    color:#3BA55C ;
+}
+
+.e-comercial-footer2{
+    opacity: .3;
+}
+
+.btn-ajuda-footer-2{
+    width: 100px;
+    padding: 5px;
+    
+    border-radius: 50px;
+    background-color: #5865f2;
+    color: #FFFFFF;
+    border: none;
+    font-size: 20px;
+    position: fixed;
+    bottom:20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    
+
+    
+}
+
+.img-ajuda-btn-ajuda-footer-2{
+    width:20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+
+
+

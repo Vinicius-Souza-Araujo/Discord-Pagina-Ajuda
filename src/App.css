@@ -1,0 +1,125 @@
+*{
+   
+  font-family: 'Bebas Neue', cursive;
+  margin: 0px;
+}
+
+.App {
+  text-align: center;
+ 
+  
+  
+}
+
+.box-buscador{
+  background-image: url(../public/assets/banner.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center 100%;
+    height: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.titulo-principal-app{
+  color: #FFFFFF;
+  font-size: 50px;
+  margin-bottom: 35px;
+}
+
+.buscador{
+  width: 43vw;
+  padding: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  
+}
+
+
+
+.box-conteudo-textual-1{
+  margin-top: 100px;
+  margin-bottom: 75px;
+}
+
+.box-conteudo-textual-2{
+  margin-top: 75px;
+}
+
+.box-conteudo-cads{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+@media (max-width: 700px){
+  .box-conteudo-textual-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .titulo-box-conteudo-textual-1{
+    width: 250px;
+    margin-bottom: 10px;
+  }
+
+ .p-box-conteudo-textual-1{
+  width: 250px;
+
+
+
+ }
+
+ .titulo-principal-app{
+  color: #FFFFFF;
+  font-size: 25px;
+  margin-bottom: 0px;
+  
+}
+
+.buscador{
+  height: 5px;
+  width: 43vw;
+  padding: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  
+}
+
+
+
+}
+
+@media (max-width: 850px){
+  .box-buscador{
+    height:100px;
+    
+  }
+
+  .buscador{
+    height: 5px;
+    width: 43vw;
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    
+  }
+
+  .titulo-principal-app{
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-bottom: 0px;
+    
+  }
+
+
+}
